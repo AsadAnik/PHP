@@ -1,6 +1,6 @@
 <?php
     ///Make Connecction with PHP and the MySqli Database...
-    $connection = mysqli_connect('localhost', 'root', '', 'ichat', 8080, '');
+    $connection = mysqli_connect('localhost', 'root', '', 'ichat');
 
     //Checking the Database Connection...
     if(!$connection){
